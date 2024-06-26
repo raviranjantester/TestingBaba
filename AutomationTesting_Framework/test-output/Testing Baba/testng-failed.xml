@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing Baba]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test.LoginTest">
+        <methods>
+          <include name="getLaunchUrl"/>
+          <include name="clickonPractice"/>
+          <include name="getUrl"/>
+          <include name="getTitloftepage"/>
+          <include name="getFlush"/>
+          <include name="clickonClose"/>
+        </methods>
+      </class> <!-- test.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Testing Baba] -->

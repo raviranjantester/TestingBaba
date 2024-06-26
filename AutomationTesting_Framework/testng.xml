@@ -1,0 +1,58 @@
+
+<suite name="Suite">
+  <test name="Test" enabled="false">
+	 <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="test.LoginTest"></class>
+    </classes>
+  </test> 
+  <test name="TextBoxTest" enabled="true">
+	  <parameter name="browser" value="chrome"></parameter>
+		<classes>
+      <class name="test.TextBoxTest"></class>
+    </classes>
+  </test>
+  <test name="CheckBoxtest" enabled="false">
+	  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="test.CheckBoxtest"></class>
+    </classes>
+  </test>
+  
+    <test name="ButtonTest" enabled="false">
+		<parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="test.ButtonTest"></class>
+    </classes>
+  </test>
+  <test name="WebTableTest" enabled="flase">
+	  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="test.webTableTest"></class>
+    </classes>
+  </test>
+  
+   <test name="LinkTest" enabled="flase">
+	    <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="test.LinkTest"></class>
+    </classes>
+  </test>
+  
+  <test name="UploadTest" enabled="false">
+	   <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="test.UploadTest"></class>
+    </classes>
+  </test>
+  
+   <test name="alertsFrameWindowsTest" enabled="false">
+	   <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="test.alertsFrameWindowsTest"></class>
+    </classes>
+  </test>
+  
+
+  
+</suite> <!-- Suite -->
